@@ -9,10 +9,10 @@ https://github.com/askvictor/WLANManager
 
 INSTALL
 * Start Powershell as Administrator
-* Allow execution:
-  Set-ExecutionPolicy RemoteSigned
-* Install script (can choose "-Install:User" if desired):
-  .\WLANManager.ps1 -Install:System
+* Allow execution:<br />
+  <code>Set-ExecutionPolicy RemoteSigned</code>
+* Install script (can choose "-Install:User" if desired):<br />
+  <code>.\WLANManager.ps1 -Install:System</code>
 * Reboot
 
 .CHANGELOG
