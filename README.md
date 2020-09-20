@@ -7,6 +7,14 @@ https://gallery.technet.microsoft.com/scriptcenter/WLAN-Manager-f438a4d7
 
 https://github.com/askvictor/WLANManager
 
+INSTALL
+* Start Powershell as Administrator
+* Allow execution:
+  Set-ExecutionPolicy RemoteSigned
+* Install script (can choose "-Install:User" if desired):
+  .\WLANManager.ps1 -Install:System
+* Reboot
+
 .CHANGELOG
 
 September 2018
